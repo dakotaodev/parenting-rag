@@ -1,0 +1,146 @@
+[
+  {
+    "filename": "vaccines_cdc_2025_immunization_schedule.pdf",
+    "source_url": "https://www.cdc.gov/vaccines/hcp/imz-schedules/downloads/child/0-18yrs-child-combined-schedule.pdf",
+    "source": "CDC",
+    "topic": "vaccines",
+    "description": "Recommended Child and Adolescent Immunization Schedule, Ages 0-18, United States 2025",
+    "page_count": 15,
+    "file_size_bytes": 443746
+  },
+  {
+    "filename": "vaccines_cdc_2025_parent_schedule.pdf",
+    "source_url": "https://www.cdc.gov/vaccines/imz-schedules/downloads/parent-ver-sch-0-6yrs.pdf",
+    "source": "CDC",
+    "topic": "vaccines",
+    "description": "Recommended Immunizations for Children Birth Through 6 Years Old (Parent Version)",
+    "page_count": 1,
+    "file_size_bytes": 80967
+  },
+  {
+    "filename": "feeding_aap_2024_solid_foods.pdf",
+    "source_url": "https://downloads.aap.org/AAP/PDF/AAP-Solid-Foods_Print-Fact-Sheet.pdf",
+    "source": "AAP",
+    "topic": "feeding",
+    "description": "Healthy Habits Start Early: Tips for Introducing Solid Foods",
+    "page_count": 2,
+    "file_size_bytes": 222595
+  },
+  {
+    "filename": "feeding_aap_2024_bright_futures_nutrition.pdf",
+    "source_url": "https://downloads.aap.org/AAP/PDF/Bright%20Futures/BFNutrition3rdEdPocketGuide.pdf",
+    "source": "AAP",
+    "topic": "feeding",
+    "description": "Bright Futures Nutrition 3rd Edition Pocket Guide",
+    "page_count": 94,
+    "file_size_bytes": 1735276
+  },
+  {
+    "filename": "feeding_aap_2024_nutrition_supervision.pdf",
+    "source_url": "https://downloads.aap.org/AAP/PDF/Bright%20Futures/BFNutrition3rdEditionSupervision.pdf",
+    "source": "AAP",
+    "topic": "feeding",
+    "description": "Bright Futures Nutrition Supervision Guide",
+    "page_count": 95,
+    "file_size_bytes": 2576141
+  },
+  {
+    "filename": "milestones_cdc_2021_full_checklists.pdf",
+    "source_url": "https://www.cdc.gov/ncbddd/actearly/pdf/FULL-LIST-CDC_LTSAE-Checklists2021_Eng_FNL2_508.pdf",
+    "source": "CDC",
+    "topic": "milestones",
+    "description": "CDC Learn the Signs Act Early: Full Developmental Milestone Checklists (2021)",
+    "page_count": 24,
+    "file_size_bytes": 9431179
+  },
+  {
+    "filename": "milestones_cdc_2025_checklists_updated.pdf",
+    "source_url": "https://www.cdc.gov/act-early/media/pdfs/2025/10/cdc-milestone-checklists-ltsae-english-508.pdf",
+    "source": "CDC",
+    "topic": "milestones",
+    "description": "CDC Developmental Milestone Checklists (Updated 2025)",
+    "page_count": 200,
+    "file_size_bytes": 7408201
+  },
+  {
+    "filename": "milestones_cdc_2024_milestone_moments.pdf",
+    "source_url": "https://www.cdc.gov/ncbddd/actearly/pdf/parents_pdfs/milestonemomentseng508.pdf",
+    "source": "CDC",
+    "topic": "milestones",
+    "description": "Milestone Moments: Parent Booklet on Child Development",
+    "page_count": 60,
+    "file_size_bytes": 3172845
+  },
+  {
+    "filename": "milestones_cdc_2024_12month_checklist.pdf",
+    "source_url": "https://www.cdc.gov/ncbddd/actearly/pdf/checklists/checklists_1yr.pdf",
+    "source": "CDC",
+    "topic": "milestones",
+    "description": "CDC Developmental Milestone Checklist: 12 Months",
+    "page_count": 2,
+    "file_size_bytes": 1240291
+  },
+  {
+    "filename": "illness_cdc_2025_rsv_prevention.pdf",
+    "source_url": "https://www.cdc.gov/acip/downloads/slides-2025-04-15-16/01-jones-maternal-peds-rsv-508.pdf",
+    "source": "CDC/ACIP",
+    "topic": "illness",
+    "description": "ACIP Maternal/Pediatric RSV Work Group: RSV Prevention Recommendations",
+    "page_count": 9,
+    "file_size_bytes": 217962
+  },
+  {
+    "filename": "illness_cdc_2024_common_cold.pdf",
+    "source_url": "https://www.cdc.gov/common-cold/media/pdfs/2024/04/CommonCold_fact_sheet_508.pdf",
+    "source": "CDC",
+    "topic": "illness",
+    "description": "Preventing and Managing Common Cold Fact Sheet",
+    "page_count": 3,
+    "file_size_bytes": 494067
+  },
+  {
+    "filename": "illness_cdc_2024_cold_relief_children.pdf",
+    "source_url": "https://www.cdc.gov/antibiotic-use/media/pdfs/HCP-Relief-Colds-Cough-85by11-P.pdf",
+    "source": "CDC",
+    "topic": "illness",
+    "description": "Symptom Relief for Colds and Cough in Children",
+    "page_count": 2,
+    "file_size_bytes": 94597
+  },
+  {
+    "filename": "illness_cdc_2025_rsv_infant_prevention_glance.pdf",
+    "source_url": "https://www.cdc.gov/vaccines/vpd/rsv/downloads/Infant-RSV-Prevention-At-A-Glance.pdf",
+    "source": "CDC",
+    "topic": "illness",
+    "description": "Infant RSV Prevention At-A-Glance",
+    "page_count": 9,
+    "file_size_bytes": 865925
+  },
+  {
+    "filename": "sleep_safety_healthychildren_2024_safe_sleep_guide.pdf",
+    "source_url": "https://www.healthychildren.org/English/ages-stages/baby/sleep/Pages/a-parents-guide-to-safe-sleep.aspx",
+    "source": "HealthyChildren.org/AAP",
+    "topic": "sleep_safety",
+    "description": "How to Keep Your Sleeping Baby Safe: AAP Policy Explained",
+    "page_count": 1,
+    "file_size_bytes": 16991
+  },
+  {
+    "filename": "illness_healthychildren_2024_fever_guide.pdf",
+    "source_url": "https://www.healthychildren.org/English/health-issues/conditions/fever/Pages/When-to-Call-the-Pediatrician.aspx",
+    "source": "HealthyChildren.org/AAP",
+    "topic": "illness",
+    "description": "Fever in Children: When to Call the Pediatrician",
+    "page_count": 1,
+    "file_size_bytes": 16031
+  },
+  {
+    "filename": "illness_healthychildren_2024_rsv_guide.pdf",
+    "source_url": "https://www.healthychildren.org/English/health-issues/conditions/chest-lungs/Pages/RSV-When-Its-More-Than-Just-a-Cold.aspx",
+    "source": "HealthyChildren.org/AAP",
+    "topic": "illness",
+    "description": "RSV: When It's More Than Just a Cold",
+    "page_count": 1,
+    "file_size_bytes": 18241
+  }
+]
