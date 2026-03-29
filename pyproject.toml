@@ -5,7 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "langchain>=1.2.13",
+    "langchain-text-splitters>=1.1.1",
     "langsmith>=0.7.22",
     "psycopg2-binary>=2.9.11",
+    "pymupdf>=1.27.2.2",
+    "pymupdf4llm>=1.27.2.2",
     "python-dotenv>=1.2.2",
 ]

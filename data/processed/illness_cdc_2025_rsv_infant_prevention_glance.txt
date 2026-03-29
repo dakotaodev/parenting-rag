@@ -1,0 +1,102 @@
+## **Respiratory Syncytial Virus vaccines (RSV) Options for Infant RSV Prevention** At-a-Glance 
+
+Two immunization products are available for the prevention of severe Respiratory Syncytial Virus (RSV) disease in infants: maternal RSV vaccine and infant RSV monoclonal antibody. All infants should be protected against severe RSV disease through use of one of these products. 
+
+_Either maternal RSV vaccination or use of RSV monoclonal antibody in the infant is recommended. Administration of both products is not needed for most infants._ 
+
+_**Maternal RSV vaccination: Use ONLY Pfizer RSVPreF vaccine (trade name Abrysvo™)**_ 
+
+## **Maternal RSV Vaccine** 
+
+RSVPreF vaccine (trade name Abrysvo _™_ ) is recommended for women during weeks 32 through 36 of pregnancy, using seasonal administration, to prevent severe RSV disease in infants. In clinical trials, there was a small increase in the number of preterm birth events in vaccinated pregnant women after vaccination.  It is not clear if this is a true safety problem related to RSV vaccine or if this occurred for reasons unrelated to vaccination. 
+
+## **Infant RSV Monoclonal Antibody[*]** 
+
+RSV monoclonal antibody (generic name nirsevimab, trade name Beyfortus™) is recommended for the following: 
+
+- Infants less than 8 months of age born during or entering their first RSV season if: 
+
+ᵒMother did not receive maternal RSV vaccine or it is unknown if mother received RSV vaccine 
+
+- **OR** 
+
+ᵒInfant was born less than 14 days after maternal RSV vaccination[†] 
+
+In rare circumstances, nirsevimab may be considered for infants born to mothers vaccinated 14 or more days before birth when the health care provider believes the potential incremental benefit is warranted. These situations include, but are not limited to: 
+
+   - ᵒInfants born to mothers who might not have mounted an adequate immune response to vaccination (e.g., people with immunocompromising conditions) 
+
+   - ᵒInfants born to mothers who have conditions associated with reduced transplacental antibody transfer (e.g., people living with HIV infection) 
+
+   - ᵒInfants who might have experienced loss of maternal antibodies, such as those who have undergone cardiopulmonary bypass of extracorporeal membrane oxygenation (ECMO) 
+
+   - ᵒInfants with substantial increased risk for severe RSV disease (e.g., hemodynamically significant congenital heart disease, intensive care admission with the requirement for oxygen at hospital discharge) 
+
+- Some infants and children aged 8 through 19 months who are at increased risk of severe RSV disease entering their second RSV season. 
+
+ᵒAmerican Indian/Alaska Native children 
+
+- ᵒChildren with chronic lung disease of prematurity who require medical support during the six months before the start of their second RSV season 
+
+- ᵒChildren with severe immunocompromise 
+
+- ᵒChildren with severe cystic fibrosis 
+
+*Note: A different monoclonal antibody, palivizumab, is used in children under 24 months of age with certain conditions that place them at high risk for severe RSV disease. Please see AAP guidelines for palivizumab. AAP has published considerations on the use of nirsevimab and palivizumab: https://publications.aap. org/redbook/resources/25379. Children who have received nirsevimab should not receive palivizumab during the same RSV season. 
+
+†From time of maternal vaccination, at least 14 days are needed for the development and transplacental transfer of maternal antibodies to protect the infant. 
+
+**Clinical Considerations for Use of Maternal RSV Vaccine or Infant RSV Monoclonal Antibody** 
+
+(Administration of both products is not needed for most infants) 
+
+**==> picture [552 x 657] intentionally omitted <==**
+
+**----- Start of picture text -----**<br>
+Product Maternal RSV Vaccine RSV Monoclonal Antibody<br>Description RSVPreF vaccine Generic name nirsevimab<br>Trade name:  Abrysvo ™ Trade name:  Beyfortus ™<br>Immunity Mother – Active immunity Passive immunity<br>Infant – Passive immunity<br>Duration of Protection Approximately 3 to 6 months for infant Approximately 5 months or more<br>How Supplied A kit that includes a vial of lyophilized  Single dose pre-filled syringe with a<br>antigen component, a prefilled syringe  purple (for 50 mg dosage) or light blue<br>containing sterile water diluent, and  (for 100 mg dosage) plunger rod. No<br>a vial adapter. The lyophilized antigen  reconstitution needed.<br>component is reconstituted with the sterile<br>water diluent to form a single dose.<br>Recommended  0.5 mL Age less than 8 months<br>Dosage Currently recommended for administration  • Less than 5 kg: 50 mg (0.5mL)<br>as a single dose. It is not yet known whether  • 5 kg and greater: 100 mg (1mL)<br>additional doses might be needed in later  Age 8 through 19 month s [‡]<br>pregnancies. • 200 mg (administered as two IM<br>injections)<br>Number of Doses One One [§]<br>How Administered IM injection IM injection<br>Coadministration Can be administered without regard to  Can be administered without regard to<br>timing of other routine immunizations,  timing of other routine immunizations,<br>including simultaneous administration including simultaneous administration<br>Gestation or Age for  32 through 36 weeks • Less than age 8 months depending on<br>Immunization mother’s RSV vaccination status<br>• Ages 8 through 19 months if at<br>increased risk for severe RSV disease. [‡]<br>When to Administer  Beginning of September through end of  Beginning of October through end of<br>(Seasonality) January in most of the continental United  March in most of the continental United<br>States. States.<br>In jurisdictions with RSV seasonality that  In jurisdictions with RSV seasonality<br>differs from most of the continental United  that differs from most of the continental<br>States, including Alaska, southern Florida,  United States, including Alaska, southern<br>Guam, Hawaii, Puerto Rico, U.S.-affiliated  Florida, Guam, Hawaii, Puerto Rico, U.S.-<br>Pacific Islands, and U.S. Virgin Islands,  affiliated Pacific Islands, and U.S. Virgin<br>healthcare providers should follow state,  Islands, healthcare providers should<br>local, or territorial guidance on timing of  follow state, local, or territorial guidance<br>maternal RSV vaccination. on timing of nirsevimab administration.<br>Contraindications History of severe allergic reaction (e.g.,  History of severe allergic reaction (e.g.,<br>(Product Should Not  anaphylaxis) to any component of the  anaphylaxis) after a previous dose or to a<br>Be Administered) maternal RSV vaccine component of nirsevimab<br>**----- End of picture text -----**<br>
+
+
+**Clinical Considerations for Use of Maternal RSV Vaccine or Infant RSV Monoclonal Antibody** 
+
+(Administration of both products is not needed for most infants) 
+
+## **Product** 
+
+Precautions (Administration Should Typically Be Deferred) Safety 
+
+## **Maternal RSV Vaccine** 
+
+The presence of a moderate or severe acute illness, with or without a fever. 
+
+**• Local and systemic reactions** In clinical trials, the most common reactions after maternal RSV vaccine in pregnant women were pain at the injection site, headache, muscle pain, and nausea. 
+
+- **Severe allergic reactions** 
+
+As with any medicine or vaccine, there is a remote chance of RSV vaccine causing a severe allergic reaction 
+
+- **Preterm birth** 
+
+In clinical trials, among women who were vaccinated during weeks 24 through 36 weeks of pregnancy, more preterm births were reported among maternal RSV vaccine recipients than among placebo recipients. This difference was not statistically different. Available data are insufficient to establish or exclude a causal relationship between preterm birth and maternal RSV vaccine. To reduce the potential risk of preterm birth when administering maternal RSV vaccine, FDA approved the vaccine for use during weeks 32 through 36 of pregnancy. The vaccine studies did not include women who already had a higher risk of preterm births. **• Hypertensive disorders of pregnancy** Although not common, in the clinical trials, hypertensive disorders of pregnancy (including pre-eclampsia) occurred in 1.8% of pregnant women who received the RSV vaccine compared to 1.4% of pregnant women who received a placebo. 
+
+## **RSV Monoclonal Antibody** 
+
+The presence of a moderate or severe acute illness, with or without a fever. 
+
+**• Local and systemic reactions** In clinical trials, the most common adverse events after nirsevimab were rash and injection-site reactions, each occurring in <1% of infants and young children. 
+
+- **Severe allergic reactions** 
+
+As with any medicine or vaccine, there is a remote chance of nirsevimab causing a severe allergic reaction. 
+
+- **Serious adverse event** 
+
+The incidence of serious adverse events was not increased in the nirsevimab arm compared with that in the placebo arm. No serious allergic reactions or immune complex disease were reported in the clinical trials. 
+
+‡Children 8–19 months who are at increased risk of severe RSV disease (American Indian and Alaska Native children; children who are severely immunocompromised; children with cystic fibrosis with severe disease; and children with chronic lung disease of prematurity who require medical support during the six months before the start of their second RSV season) should receive nirsevimab 200 mg dose administered as two IM injections (2 x 100 mg light blue plunger rod) shortly before the start of their second RSV season. 
+
+**==> picture [72 x 43] intentionally omitted <==**
+
+**U.S. Department of Health and Human Services** Centers for Disease Control and Prevention 
+
+§One dose for each RSV season except for children undergoing cardiac surgery with cardiopulmonary bypass where an additional dose is recommended as soon as the child is stable after surgery. See label (fda.gov). 
+
