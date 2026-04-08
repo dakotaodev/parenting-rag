@@ -2,6 +2,8 @@ from langchain_text_splitters import MarkdownTextSplitter
 import os 
 import json
 
+from src.ingestion.models import DocumentChunk
+
 
 class Chunker:
 
@@ -11,7 +13,7 @@ class Chunker:
         self.splitter = MarkdownTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
 
     # create method that applies chunking to all files in a directory
-    def chunk_pdf_directory(self, path: str):
+    def chunk_pdf_directory(self, path: str) -> list[DocumentChunk]:
         results=[] 
         for file in os.listdir(path):
             if file.endswith(".md") or file.endswith(".txt"):
@@ -19,7 +21,8 @@ class Chunker:
                 with open(file_path, "r") as f:
                     text = f.read()
                 chunks = self.chunk_fixed_size(text)
-                results.append((file, chunks))
+                doc_chunks = [DocumentChunk(source=file, content=chunk) for chunk in chunks]
+                results.extend(doc_chunks)
         return results
     
     def chunk_json_directory(self, path: str):
@@ -34,7 +37,8 @@ class Chunker:
                         data = json.load(f)
                         text = data.get("abstract", "")
                 chunks = self.chunk_fixed_size(text)
-                results.append((file, chunks))
+                doc_chunks = [DocumentChunk(source=file, content=chunk) for chunk in chunks]
+                results.extend(doc_chunks)
         return results
 
     def chunk_fixed_size(self, text: str):
