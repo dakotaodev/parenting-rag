@@ -20,4 +20,8 @@ class SupabaseClient:
         ]
         self.client.table("documents").insert(rows).execute()
 
+    @property
+    def client(self):
+        return self.client
+
 
