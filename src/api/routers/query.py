@@ -1,11 +1,12 @@
-from fastapi import APIRouter
-from langchain_community.vectorstores import SupabaseVectorStore
-from langsmith import traceable
-from supabase import create_client
-from dotenv import load_dotenv
 import os
-from langchain_ollama import OllamaEmbeddings
-from langchain_ollama import ChatOllama
+
+from dotenv import load_dotenv
+from fastapi import APIRouter, Request
+from langchain_community.vectorstores import SupabaseVectorStore
+from langchain_ollama import ChatOllama, OllamaEmbeddings
+from langsmith import traceable
+from pydantic import BaseModel, Field
+from supabase import create_client
 
 load_dotenv()
 supabase_client = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
@@ -16,18 +17,29 @@ router = APIRouter(
     tags=["v1"]
 )
 
+
+class QueryRequest(BaseModel):
+    question: str = Field(min_length=3)
+
+
+class QueryResponse(BaseModel):
+    answer: str
+    request_id: str
+
+
 @traceable
-@router.get("/api/v1/query")
-async def query(query:str):
+@router.post("/query", response_model=QueryResponse)
+async def query(body: QueryRequest, request: Request):
+    request_id = request.state.request_id
+
     vectorstore = SupabaseVectorStore(
         client=supabase_client,
         embedding=OllamaEmbeddings(model="embeddinggemma"),
         table_name="documents",
     )
-    results = vectorstore.similarity_search(query)
-    
+    results = await vectorstore.asimilarity_search(body.question)
+
     context = "\n\n".join(doc.page_content for doc in results)
-    print(context)
 
     prompt = f"""You are a knowledgeable parenting assistant grounded in peer-reviewed research. \
         Answer the parent's question using only the provided research excerpts. \
@@ -40,7 +52,8 @@ async def query(query:str):
 
     messages = [
         {"role": "system", "content": prompt},
-        {"role": "user", "content": query}
+        {"role": "user", "content": body.question}
     ]
-    response = llm.invoke(messages)
-    return {"response": response.content}
+    response = await llm.ainvoke(messages)
+
+    return QueryResponse(answer=response.content, request_id=request_id)
