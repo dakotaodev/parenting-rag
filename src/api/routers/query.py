@@ -24,6 +24,7 @@ class QueryRequest(BaseModel):
 
 class QueryResponse(BaseModel):
     answer: str
+    sources: list[str]
     request_id: str
 
 
@@ -40,6 +41,10 @@ async def query(body: QueryRequest, request: Request):
     results = await vectorstore.asimilarity_search(body.question)
 
     context = "\n\n".join(doc.page_content for doc in results)
+    sources = [
+        doc.metadata.get("source", doc.metadata.get("file_path", "unknown"))
+        for doc in results
+    ]
 
     prompt = f"""You are a knowledgeable parenting assistant grounded in peer-reviewed research. \
         Answer the parent's question using only the provided research excerpts. \
@@ -56,4 +61,4 @@ async def query(body: QueryRequest, request: Request):
     ]
     response = await llm.ainvoke(messages)
 
-    return QueryResponse(answer=response.content, request_id=request_id)
+    return QueryResponse(answer=response.content, sources=sources, request_id=request_id)

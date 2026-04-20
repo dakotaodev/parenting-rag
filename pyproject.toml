@@ -10,6 +10,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "fastapi>=0.135.2",
+    "httpx>=0.28.1",
     "langchain>=1.2.13",
     "langchain-community>=0.4.1",
     "langchain-ollama>=1.1.0",
@@ -23,6 +24,15 @@ dependencies = [
     "supabase>=2.28.3",
     "uvicorn>=0.42.0",
 ]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
 
 [project.scripts]
 app-dev = "src.api.main:main"
