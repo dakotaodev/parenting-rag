@@ -40,11 +40,34 @@ async def query(body: QueryRequest, request: Request):
     )
     results = await vectorstore.asimilarity_search(body.question)
 
-    context = "\n\n".join(doc.page_content for doc in results)
-    sources = [
+    # For hierarchical chunks, retrieve parent text instead of child snippet.
+    # Fixed/semantic chunks have no parent_id so they pass through unchanged.
+    seen_parents: set[str] = set()
+    context_parts: list[str] = []
+    for doc in results:
+        meta = doc.metadata
+        parent_id = meta.get("parent_id")
+        chunk_id = meta.get("chunk_id")
+        is_child = parent_id and parent_id != chunk_id
+        if is_child and parent_id not in seen_parents:
+            seen_parents.add(parent_id)
+            response = (
+                supabase_client.table("documents")
+                .select("content")
+                .eq("metadata->>chunk_id", parent_id)
+                .limit(1)
+                .execute()
+            )
+            parent_text = response.data[0]["content"] if response.data else None
+            context_parts.append(parent_text or doc.page_content)
+        elif not is_child:
+            context_parts.append(doc.page_content)
+
+    context = "\n\n".join(context_parts)
+    sources = list({
         doc.metadata.get("source", doc.metadata.get("file_path", "unknown"))
         for doc in results
-    ]
+    })
 
     prompt = f"""You are a knowledgeable parenting assistant grounded in peer-reviewed research. \
         Answer the parent's question using only the provided research excerpts. \
