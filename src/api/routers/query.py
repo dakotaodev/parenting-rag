@@ -1,4 +1,5 @@
 import os
+from functools import lru_cache
 
 from dotenv import load_dotenv
 from fastapi import APIRouter, Request
@@ -6,11 +7,19 @@ from langchain_community.vectorstores import SupabaseVectorStore
 from langchain_ollama import ChatOllama, OllamaEmbeddings
 from langsmith import traceable
 from pydantic import BaseModel, Field
-from supabase import create_client
+from supabase import Client, create_client
 
 load_dotenv()
-supabase_client = create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
-llm = ChatOllama(model="mistral")
+
+
+@lru_cache(maxsize=1)
+def _supabase() -> Client:
+    return create_client(os.getenv("SUPABASE_URL"), os.getenv("SUPABASE_KEY"))
+
+
+@lru_cache(maxsize=1)
+def _llm() -> ChatOllama:
+    return ChatOllama(model="mistral")
 
 router = APIRouter(
     prefix="/api/v1",
@@ -34,7 +43,7 @@ async def query(body: QueryRequest, request: Request):
     request_id = request.state.request_id
 
     vectorstore = SupabaseVectorStore(
-        client=supabase_client,
+        client=_supabase(),
         embedding=OllamaEmbeddings(model="embeddinggemma"),
         table_name="documents",
     )
@@ -52,7 +61,7 @@ async def query(body: QueryRequest, request: Request):
         if is_child and parent_id not in seen_parents:
             seen_parents.add(parent_id)
             response = (
-                supabase_client.table("documents")
+                _supabase().table("documents")
                 .select("content")
                 .eq("metadata->>chunk_id", parent_id)
                 .limit(1)
@@ -82,6 +91,6 @@ async def query(body: QueryRequest, request: Request):
         {"role": "system", "content": prompt},
         {"role": "user", "content": body.question}
     ]
-    response = await llm.ainvoke(messages)
+    response = await _llm().ainvoke(messages)
 
     return QueryResponse(answer=response.content, sources=sources, request_id=request_id)

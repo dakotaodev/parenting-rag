@@ -7,7 +7,27 @@ on:
     branches: ["**"]
 
 jobs:
-  test:
+  unit-tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+
+      - name: Install dependencies
+        run: uv sync --extra test
+
+      - name: Run unit tests
+        run: uv run pytest tests/unit/ -v
+
+  integration-tests:
     runs-on: ubuntu-latest
 
     env:
@@ -29,6 +49,7 @@ jobs:
         run: uv sync --extra test
 
       - name: Install Ollama and pull models
+        if: env.SUPABASE_URL != ''
         run: |
           curl -fsSL https://ollama.com/install.sh | sh
           ollama serve &
@@ -37,4 +58,5 @@ jobs:
           ollama pull embeddinggemma
 
       - name: Run integration tests
+        if: env.SUPABASE_URL != ''
         run: uv run pytest tests/integration/ -v
