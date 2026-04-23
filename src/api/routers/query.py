@@ -1,11 +1,12 @@
 import os
+import time
 from functools import lru_cache
 
 from dotenv import load_dotenv
 from fastapi import APIRouter, Request
 from langchain_community.vectorstores import SupabaseVectorStore
 from langchain_ollama import ChatOllama, OllamaEmbeddings
-from langsmith import traceable
+from langsmith import get_current_run_tree, traceable
 from pydantic import BaseModel, Field
 from supabase import Client, create_client
 
@@ -21,10 +22,23 @@ def _supabase() -> Client:
 def _llm() -> ChatOllama:
     return ChatOllama(model="mistral")
 
+
+def _ms(t: float) -> int:
+    return round((time.perf_counter() - t) * 1000)
+
+
 router = APIRouter(
     prefix="/api/v1",
     tags=["v1"]
 )
+
+
+class LatencyBreakdown(BaseModel):
+    embed_ms: int
+    retrieval_ms: int
+    rerank_ms: int
+    generation_ms: int
+    total_ms: int
 
 
 class QueryRequest(BaseModel):
@@ -35,19 +49,28 @@ class QueryResponse(BaseModel):
     answer: str
     sources: list[str]
     request_id: str
+    latency_breakdown: LatencyBreakdown
 
 
 @traceable
 @router.post("/query", response_model=QueryResponse)
 async def query(body: QueryRequest, request: Request):
     request_id = request.state.request_id
+    t_total = time.perf_counter()
+
+    embeddings = OllamaEmbeddings(model="embeddinggemma")
+    t0 = time.perf_counter()
+    query_embedding = await embeddings.aembed_query(body.question)
+    embed_ms = _ms(t0)
 
     vectorstore = SupabaseVectorStore(
         client=_supabase(),
-        embedding=OllamaEmbeddings(model="embeddinggemma"),
+        embedding=embeddings,
         table_name="documents",
     )
-    results = await vectorstore.asimilarity_search(body.question)
+    t0 = time.perf_counter()
+    results = await vectorstore.asimilarity_search_by_vector(query_embedding)
+    retrieval_ms = _ms(t0)
 
     # For hierarchical chunks, retrieve parent text instead of child snippet.
     # Fixed/semantic chunks have no parent_id so they pass through unchanged.
@@ -91,6 +114,26 @@ async def query(body: QueryRequest, request: Request):
         {"role": "system", "content": prompt},
         {"role": "user", "content": body.question}
     ]
-    response = await _llm().ainvoke(messages)
+    t0 = time.perf_counter()
+    llm_response = await _llm().ainvoke(messages)
+    generation_ms = _ms(t0)
 
-    return QueryResponse(answer=response.content, sources=sources, request_id=request_id)
+    total_ms = _ms(t_total)
+    breakdown = LatencyBreakdown(
+        embed_ms=embed_ms,
+        retrieval_ms=retrieval_ms,
+        rerank_ms=0,
+        generation_ms=generation_ms,
+        total_ms=total_ms,
+    )
+
+    run = get_current_run_tree()
+    if run:
+        run.extra = {**(run.extra or {}), "metadata": breakdown.model_dump()}
+
+    return QueryResponse(
+        answer=llm_response.content,
+        sources=sources,
+        request_id=request_id,
+        latency_breakdown=breakdown,
+    )
