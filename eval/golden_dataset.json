@@ -1,0 +1,602 @@
+[
+  {
+    "id": "sleep-001",
+    "question": "What sleeping position does the AAP recommend for infants?",
+    "ground_truth": "Babies should always be placed on their backs to sleep. Babies who sleep on their backs are much less likely to die suddenly compared to stomach or side positions. Parents need not worry about choking, as babies' airway anatomy prevents this.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sleep-002",
+    "question": "How does room sharing (without bed sharing) reduce the risk of SIDS?",
+    "ground_truth": "Keeping the baby's sleep area in the parents' room for at least 6 months can decrease the risk of SIDS by as much as 50%. The baby should have their own separate sleep surface — bed sharing is never recommended.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sleep-003",
+    "question": "Which sleep surfaces are approved for infant sleep by the AAP?",
+    "ground_truth": "Cribs, bassinets, and play yards that meet Consumer Product Safety Commission (CPSC) standards are approved. Mattresses must fit tightly with fitted sheets only. Inclined sleepers, Boppy pillows, Dock-a-Tots, and other non-approved products should be avoided.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sleep-004",
+    "question": "What items should be removed from a baby's sleep environment to reduce SIDS risk?",
+    "ground_truth": "Pillows, quilts, blankets, bumper pads, and toys should all be eliminated from the baby's sleep area. Sleep clothing layers should be used instead of blankets.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sleep-005",
+    "question": "How should parents manage temperature to reduce overheating risk during infant sleep?",
+    "ground_truth": "Overheating should be avoided. Parents should dress the baby in one layer more than they themselves are wearing, and should not use hats indoors after hospital discharge.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sleep-006",
+    "question": "When should swaddling be discontinued, and why?",
+    "ground_truth": "Swaddling should be discontinued at around 3 to 4 months of age, when the baby begins to show signs of rolling. Babies should only be swaddled on their backs.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sleep-007",
+    "question": "Under what conditions is bed sharing most dangerous for infants?",
+    "ground_truth": "The AAP recommends against bed sharing in all circumstances. It is especially dangerous when the parent has consumed alcohol, used marijuana, or taken sedating medications.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sleep-008",
+    "question": "How much supervised tummy time is recommended for infants, and by what age?",
+    "ground_truth": "Infants should receive 15 to 30 minutes of supervised tummy time daily, and should achieve this by 7 weeks of age. Tummy time supports motor development and helps prevent flat spots on the head.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "easy"
+  },
+  {
+    "id": "sleep-009",
+    "question": "What is the approximate annual number of sleep-related infant deaths in the United States?",
+    "ground_truth": "Approximately 3,500 babies die annually in the US from sleep-related causes, primarily SIDS (sudden infant death syndrome) and accidental suffocation or strangulation in bed.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "medium"
+  },
+  {
+    "id": "sleep-010",
+    "question": "Which additional practices beyond sleep position are recommended to reduce SIDS risk?",
+    "ground_truth": "Additional SIDS risk-reduction strategies include breastfeeding, offering a pacifier at nap and bedtime (after breastfeeding is established), attending all prenatal care and well-child visits, avoiding smoking, nicotine, alcohol, and drugs during and after pregnancy, ensuring the baby is vaccinated, and providing supervised tummy time daily.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "medium"
+  },
+  {
+    "id": "feeding-001",
+    "question": "At what age does the AAP say most babies are ready to begin solid foods?",
+    "ground_truth": "Most babies are ready for solid foods at around 6 months. Until that point, babies should receive only breast milk or formula.",
+    "source_doc": "feeding_aap_2024_solid_foods.txt",
+    "topic": "feeding",
+    "difficulty": "easy"
+  },
+  {
+    "id": "feeding-002",
+    "question": "What developmental signs indicate a baby is ready to start solid foods?",
+    "ground_truth": "Signs of readiness include: the baby can sit up mostly on their own, can hold their head up for a long time, shows interest in mealtime (e.g., reaching for food), continues to be hungry between nursing or bottle feeds, and no longer automatically pushes food out of their mouth with their tongue (the tongue-thrust reflex has faded).",
+    "source_doc": "feeding_aap_2024_solid_foods.txt",
+    "topic": "feeding",
+    "difficulty": "medium"
+  },
+  {
+    "id": "feeding-003",
+    "question": "Should juice or sugary drinks be offered to infants alongside solid foods?",
+    "ground_truth": "No. Sugary drinks, including 100% juice, add unneeded calories and can harm the baby's teeth. Water is the appropriate drink to offer during meals with solid foods.",
+    "source_doc": "feeding_aap_2024_solid_foods.txt",
+    "topic": "feeding",
+    "difficulty": "easy"
+  },
+  {
+    "id": "feeding-004",
+    "question": "What is the primary nutrition source for infants throughout the first year of life, even after solid foods are introduced?",
+    "ground_truth": "For the first year of life, the baby will still get most of their nutrition from breast milk or formula, even after starting solid foods. Until 12 months, breast milk or iron-fortified infant formula is recommended; cow's, goat's, or soy milk should not be given.",
+    "source_doc": "feeding_aap_2024_solid_foods.txt",
+    "topic": "feeding",
+    "difficulty": "easy"
+  },
+  {
+    "id": "feeding-005",
+    "question": "How should a parent respond when a baby turns away from food or keeps their lips shut during feeding?",
+    "ground_truth": "Parents should not force the baby to eat more. Turning the head away or keeping lips shut signals the baby is done eating. Respecting these hunger and fullness cues is an important part of early eating development.",
+    "source_doc": "feeding_aap_2024_solid_foods.txt",
+    "topic": "feeding",
+    "difficulty": "easy"
+  },
+  {
+    "id": "feeding-006",
+    "question": "What infectious disease protection does breastfeeding provide compared to formula feeding?",
+    "ground_truth": "Compared with formula-fed infants, breastfed infants have fewer and less severe bacterial and viral diseases, including meningitis, gastroenteritis, otitis media, pneumonia, botulism, urinary tract infections, and necrotizing enterocolitis. Even breastfeeding for only a few weeks or months provides significant benefits.",
+    "source_doc": "feeding_aap_2024_nutrition_supervision.txt",
+    "topic": "feeding",
+    "difficulty": "hard"
+  },
+  {
+    "id": "feeding-007",
+    "question": "Should fat be restricted in an infant's diet during the first year of life?",
+    "ground_truth": "No. Fat should not be restricted during the first year of life. Breast milk and infant formula provide 40–50% of calories from fat and are important sources of energy, essential fatty acids, and fat-soluble vitamins. Between ages 2 and 6 months, body fat increases twice as much as muscle.",
+    "source_doc": "feeding_aap_2024_nutrition_supervision.txt",
+    "topic": "feeding",
+    "difficulty": "medium"
+  },
+  {
+    "id": "feeding-008",
+    "question": "Why is it important for breastfed infants to receive an iron supplement starting at age 4 months?",
+    "ground_truth": "Breast milk contains very little iron. Full-term infants usually have sufficient iron stores for 4 to 6 months, but after that breastfed infants are at risk of iron deficiency. Therefore, breastfed infants should receive an iron supplement beginning at age 4 months.",
+    "source_doc": "feeding_aap_2024_nutrition_supervision.txt",
+    "topic": "feeding",
+    "difficulty": "medium"
+  },
+  {
+    "id": "vaccine-001",
+    "question": "When is the first dose of the hepatitis B vaccine recommended?",
+    "ground_truth": "The first dose of the hepatitis B (HepB) vaccine is recommended at birth, with the second dose at 1–2 months and the third dose between 6 and 18 months.",
+    "source_doc": "vaccines_cdc_2025_immunization_schedule.txt",
+    "topic": "vaccines",
+    "difficulty": "easy"
+  },
+  {
+    "id": "vaccine-002",
+    "question": "Which vaccines are included in the 2-month well-child immunization visit?",
+    "ground_truth": "At the 2-month visit, the recommended vaccines are: the second dose of hepatitis B (HepB), the first doses of rotavirus (RV), DTaP (diphtheria, tetanus, and acellular pertussis), Hib (Haemophilus influenzae type b), pneumococcal conjugate (PCV), and inactivated poliovirus (IPV).",
+    "source_doc": "vaccines_cdc_2025_immunization_schedule.txt",
+    "topic": "vaccines",
+    "difficulty": "hard"
+  },
+  {
+    "id": "vaccine-003",
+    "question": "When is the first dose of the MMR vaccine recommended, and when is the second?",
+    "ground_truth": "The first dose of the MMR (measles, mumps, and rubella) vaccine is recommended between 12 and 15 months of age. The second dose is recommended between 4 and 6 years of age.",
+    "source_doc": "vaccines_cdc_2025_immunization_schedule.txt",
+    "topic": "vaccines",
+    "difficulty": "medium"
+  },
+  {
+    "id": "vaccine-004",
+    "question": "What is the full DTaP series schedule for children under 7?",
+    "ground_truth": "The DTaP series consists of five doses: the first three doses are given at 2, 4, and 6 months of age, the fourth dose is given at 15–18 months, and the fifth dose is given at 4–6 years. A fifth dose is not necessary if the fourth dose was given at age 4 years or older and at least 6 months after dose 3.",
+    "source_doc": "vaccines_cdc_2025_immunization_schedule.txt",
+    "topic": "vaccines",
+    "difficulty": "medium"
+  },
+  {
+    "id": "vaccine-005",
+    "question": "At what age does the CDC recommend starting annual influenza vaccination, and how often should it be given?",
+    "ground_truth": "Annual influenza vaccination is recommended starting at 6 months of age. Children 6 months and older should receive one dose annually; children receiving influenza vaccine for the first time may need two doses.",
+    "source_doc": "vaccines_cdc_2025_immunization_schedule.txt",
+    "topic": "vaccines",
+    "difficulty": "medium"
+  },
+  {
+    "id": "vaccine-006",
+    "question": "If a child has fallen behind on their vaccine schedule, does the series need to be restarted from the beginning?",
+    "ground_truth": "No. A vaccine series does not need to be restarted, regardless of the time that has elapsed between doses. When a vaccine is not given at the recommended age, it should be administered at a subsequent visit. Catch-up vaccination should be provided at the earliest opportunity.",
+    "source_doc": "vaccines_cdc_2025_immunization_schedule.txt",
+    "topic": "vaccines",
+    "difficulty": "medium"
+  },
+  {
+    "id": "vaccine-007",
+    "question": "What is Nirsevimab (RSV-mAb) and when is it given to infants?",
+    "ground_truth": "Nirsevimab (brand name Beyfortus) is a monoclonal antibody — not a vaccine — that provides passive protection against respiratory syncytial virus (RSV). It is recommended as a single dose for infants, with timing depending on the mother's RSV vaccination status. A dose may also be given to infants aged 8–19 months who remain vulnerable going into their second RSV season.",
+    "source_doc": "vaccines_cdc_2025_immunization_schedule.txt",
+    "topic": "vaccines",
+    "difficulty": "hard"
+  },
+  {
+    "id": "milestone-001",
+    "question": "What physical development milestones should most babies reach by 2 months?",
+    "ground_truth": "By 2 months, most babies can hold their head up when on their tummy, move both arms and both legs, and briefly open their hands.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "easy"
+  },
+  {
+    "id": "milestone-002",
+    "question": "What motor development milestones should most babies show by 4 months?",
+    "ground_truth": "By 4 months, most babies can hold their head steady without support when being held, hold a toy when it is placed in their hand, swing their arm at toys, bring their hands to their mouth, and push up onto their elbows and forearms when on their tummy.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "medium"
+  },
+  {
+    "id": "milestone-003",
+    "question": "What social and communication milestones should a 4-month-old typically show?",
+    "ground_truth": "By 4 months, most babies smile on their own to get attention, make sounds like 'oooo' and 'aahh' (cooing), make sounds back when talked to, and turn their head toward the sound of a familiar voice.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "easy"
+  },
+  {
+    "id": "milestone-004",
+    "question": "What movement milestones should most babies reach by 6 months?",
+    "ground_truth": "By 6 months, most babies can roll from their tummy to their back, push up with straight arms when on their tummy, and lean on their hands to support themselves when sitting.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "medium"
+  },
+  {
+    "id": "milestone-005",
+    "question": "What physical development milestones are expected by 9 months?",
+    "ground_truth": "By 9 months, most babies can get themselves to a sitting position, sit without support, move objects from one hand to the other, and use their fingers to rake food toward themselves.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "medium"
+  },
+  {
+    "id": "milestone-006",
+    "question": "When is general developmental screening recommended for all children per the AAP?",
+    "ground_truth": "The American Academy of Pediatrics recommends general developmental screening for all children at 9 months. Additional screenings are recommended at 18 months (developmental and autism) and 24 months (autism). Developmental screening is also recommended at 30 months.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "hard"
+  },
+  {
+    "id": "milestone-007",
+    "question": "What are the key motor milestones expected by 12 months?",
+    "ground_truth": "By 12 months, most babies can pull themselves up to stand, walk while holding onto furniture, drink from a cup without a lid when an adult holds it, and pick up small objects between their thumb and pointer finger (pincer grasp).",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "medium"
+  },
+  {
+    "id": "milestone-008",
+    "question": "What is the pincer grasp and at what age does it typically develop?",
+    "ground_truth": "The pincer grasp is the ability to pick up small objects — such as small bits of food — between the thumb and the pointer finger. It typically develops by 12 months of age.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "easy"
+  },
+  {
+    "id": "milestone-009",
+    "question": "What language and communication milestones should a 9-month-old typically show?",
+    "ground_truth": "By 9 months, most babies make different sounds like 'mamamama' and 'babababa,' and lift their arms up to signal they want to be picked up. They also respond to their name being called and show several facial expressions.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "medium"
+  },
+  {
+    "id": "milestone-010",
+    "question": "What language and social milestones should most babies show by 12 months?",
+    "ground_truth": "By 12 months, most babies wave 'bye-bye,' and many can call a parent 'mama' or 'dada' or another special name, and understand 'no' (pausing briefly or stopping when they hear it).",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "medium"
+  },
+  {
+    "id": "illness-001",
+    "question": "At what temperature and age should parents call the pediatrician immediately about a fever?",
+    "ground_truth": "Parents should contact the doctor right away if an infant under 3 months has a temperature of 100.4°F (38°C) or higher. For any child, a temperature exceeding 104°F repeatedly at any age also warrants immediate contact.",
+    "source_doc": "illness_healthychildren_2024_fever_guide.txt",
+    "topic": "illness",
+    "difficulty": "easy"
+  },
+  {
+    "id": "illness-002",
+    "question": "What symptoms accompanying a fever require immediate pediatrician contact?",
+    "ground_truth": "Parents should contact the pediatrician immediately if a child with a fever also has: a very ill appearance, unusual drowsiness, or extreme fussiness; stiff neck, severe headache, severe sore throat, ear pain, breathing difficulty, an unexplained rash, or persistent vomiting or diarrhea; or a history of seizures.",
+    "source_doc": "illness_healthychildren_2024_fever_guide.txt",
+    "topic": "illness",
+    "difficulty": "hard"
+  },
+  {
+    "id": "illness-003",
+    "question": "How long can a fever persist in a child under 2 before parents should call the pediatrician?",
+    "ground_truth": "Parents should call the pediatrician if a fever persists beyond 24 hours in children under 2 years old. For children 2 years and older, a fever lasting more than 72 hours warrants a call.",
+    "source_doc": "illness_healthychildren_2024_fever_guide.txt",
+    "topic": "illness",
+    "difficulty": "medium"
+  },
+  {
+    "id": "illness-004",
+    "question": "Do antibiotics help treat or shorten the duration of a common cold?",
+    "ground_truth": "No. The common cold is caused by viruses, and antibiotics do not work against viruses. Antibiotics will not help a child feel better or recover faster from a cold, and their side effects — including the risk of C. diff infection and antimicrobial-resistant infections — can cause harm.",
+    "source_doc": "illness_cdc_2024_common_cold.txt",
+    "topic": "illness",
+    "difficulty": "easy"
+  },
+  {
+    "id": "illness-005",
+    "question": "What pain relievers are appropriate for children of different ages during a cold, and what should always be avoided?",
+    "ground_truth": "Children younger than 6 months should only receive acetaminophen. Children 6 months or older may receive either acetaminophen or ibuprofen. Aspirin should never be given to children because it can cause Reye's syndrome, a rare but serious illness that can damage the liver and brain.",
+    "source_doc": "illness_cdc_2024_common_cold.txt",
+    "topic": "illness",
+    "difficulty": "medium"
+  },
+  {
+    "id": "illness-006",
+    "question": "What are the lower respiratory (bronchiolitis) symptoms of RSV that should prompt a call to the pediatrician?",
+    "ground_truth": "Lower respiratory RSV symptoms that warrant calling the pediatrician include: rapid breathing, nostril flaring, head bobbing, grunting during breathing, belly breathing and chest retractions, and wheezing. Breathing pauses, pale or blue-colored skin, and significantly decreased activity are also urgent warning signs.",
+    "source_doc": "illness_healthychildren_2024_rsv_guide.txt",
+    "topic": "illness",
+    "difficulty": "hard"
+  },
+  {
+    "id": "illness-007",
+    "question": "On which days are RSV symptoms typically worst, and how long does the illness usually last?",
+    "ground_truth": "RSV symptoms are typically at their worst on days 3 through 5 of illness. The total illness duration averages 7 to 14 days.",
+    "source_doc": "illness_healthychildren_2024_rsv_guide.txt",
+    "topic": "illness",
+    "difficulty": "medium"
+  },
+  {
+    "id": "illness-008",
+    "question": "How effective is maternal RSV vaccination during pregnancy at protecting newborns?",
+    "ground_truth": "The maternal RSV vaccine (Abrysvo), given at 32–36 weeks of pregnancy, reduces hospitalization risk from RSV by 57% in the infant's first 6 months of life.",
+    "source_doc": "illness_healthychildren_2024_rsv_guide.txt",
+    "topic": "illness",
+    "difficulty": "medium"
+  },
+  {
+    "id": "safety-001",
+    "question": "Why should parents never shake a baby, and what should they do instead if overwhelmed?",
+    "ground_truth": "Shaking a baby can damage their brain or even cause death. If a parent feels overwhelmed by crying, they should place the baby in a safe place and walk away, checking on the baby every 5–10 minutes. Infant crying is often worst in the first few months but improves over time.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "safety",
+    "difficulty": "easy"
+  },
+  {
+    "id": "safety-002",
+    "question": "What is the CDC and AAP recommendation on screen time for children under 2?",
+    "ground_truth": "Screen time — including TV, phones, and tablets — is not recommended for children younger than 2 years of age, except for video calling with loved ones. Babies learn best through talking, playing, and interacting with other people.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "easy"
+  },
+  {
+    "id": "safety-003",
+    "question": "At what minimum age is honey safe to give to a child, and what is it used for?",
+    "ground_truth": "Honey is safe for children at least 1 year of age or older and can be used to help relieve cough. It should never be given to infants under 12 months due to the risk of infant botulism.",
+    "source_doc": "illness_cdc_2024_common_cold.txt",
+    "topic": "safety",
+    "difficulty": "easy"
+  },
+  {
+    "id": "safety-004",
+    "question": "Why are over-the-counter cough and cold medicines unsafe for young children?",
+    "ground_truth": "Over-the-counter cough and cold medicines are not recommended for children younger than 6 years old because they can cause serious and sometimes life-threatening side effects. Young children may still receive fever-reducing medicines; parents should contact their doctor or pharmacist about correct dosing.",
+    "source_doc": "illness_cdc_2024_common_cold.txt",
+    "topic": "safety",
+    "difficulty": "medium"
+  },
+  {
+    "id": "safety-005",
+    "question": "What sign of dehydration during RSV illness should prompt a parent to call the pediatrician?",
+    "ground_truth": "Parents should call the pediatrician if the baby has fewer than one wet diaper every 8 hours, which is a sign of dehydration.",
+    "source_doc": "illness_healthychildren_2024_rsv_guide.txt",
+    "topic": "safety",
+    "difficulty": "medium"
+  },
+  {
+    "id": "safety-006",
+    "question": "What should parents know about allowing a 4-month-old to put objects in their mouth safely?",
+    "ground_truth": "Allowing babies to put safe things in their mouths is how they explore and learn. Parents should ensure objects are not sharp, not hot, and not small enough to be a choking hazard. This exploration is developmentally appropriate and important for learning.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "safety",
+    "difficulty": "medium"
+  },
+  {
+    "id": "safety-007",
+    "question": "What general prevention strategies does the CDC recommend to reduce spread of respiratory viruses like colds and RSV?",
+    "ground_truth": "The CDC recommends staying up to date with immunizations, practicing good hygiene (including handwashing for 20 or more seconds with soap and water), taking steps for cleaner air, and using precautions to prevent spread when you may have a respiratory virus. For high-risk individuals, seeking health care promptly for testing or treatment can reduce the risk of severe illness.",
+    "source_doc": "illness_cdc_2024_common_cold.txt",
+    "topic": "safety",
+    "difficulty": "medium"
+  },
+  {
+    "id": "multi-001",
+    "question": "A breastfeeding parent wants to offer a pacifier to reduce SIDS risk. When is the right time to introduce it?",
+    "ground_truth": "Pacifiers should be offered at nap and bedtime, but only after breastfeeding is established. Introducing a pacifier too early can interfere with breastfeeding. Once breastfeeding is well established, a pacifier at sleep times is a recommended SIDS risk-reduction strategy.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-002",
+    "question": "A parent stopped swaddling at 3.5 months when their baby began rolling. What should they use for sleep warmth instead?",
+    "ground_truth": "Once swaddling is discontinued, parents should use sleep clothing layers — such as wearable blankets or sleep sacks — rather than loose blankets. Loose blankets, quilts, and pillows should never be placed in the baby's sleep environment. The baby should continue to be placed on their back to sleep.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-003",
+    "question": "What should parents of an exclusively breastfed 6-month-old consider as they begin introducing solid foods?",
+    "ground_truth": "At 6 months, a breastfed baby showing readiness signs (sitting with support, head control, interest in food, fading tongue-thrust reflex) can begin solid foods. Breast milk remains the primary nutrition source through the first year. After 6 months, solid foods help provide additional nutrients — particularly iron — that breast milk alone may not supply in sufficient amounts for breastfed infants.",
+    "source_doc": "feeding_aap_2024_solid_foods.txt",
+    "topic": "feeding",
+    "difficulty": "medium"
+  },
+  {
+    "id": "multi-004",
+    "question": "A child's 2-month vaccines were delayed by 6 weeks due to illness. Should the DTaP series be restarted from the beginning?",
+    "ground_truth": "No. A vaccine series does not need to be restarted regardless of the time that has elapsed between doses. The missed doses should be given at the next visit. Catch-up vaccination should be provided at the earliest opportunity, and extended intervals between doses do not require restarting the series.",
+    "source_doc": "vaccines_cdc_2025_immunization_schedule.txt",
+    "topic": "vaccines",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-005",
+    "question": "At the 9-month well-child visit, what developmental screening should occur and what language milestones should the provider be looking for?",
+    "ground_truth": "At 9 months, general developmental screening is recommended for all children per the AAP. Language milestones the provider should look for include: the baby making different sounds like 'mamamama' and 'babababa,' and lifting their arms up to be picked up. The baby should also be responding to their name and showing several facial expressions.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-006",
+    "question": "A 10-week-old has a rectal temperature of 100.2°F. The AAP threshold for immediate contact is 100.4°F. Should the parent still call the doctor?",
+    "ground_truth": "The AAP guidance states to contact the doctor right away if an infant under 3 months has a temperature of 100.4°F or higher. At 100.2°F, the reading is technically below that threshold. However, the temperature is extremely close to the threshold, and any other concerning symptoms — unusual drowsiness, poor feeding, very fussy behavior, or difficulty breathing — would independently warrant immediate contact. Parents should use judgment and call if uncertain.",
+    "source_doc": "illness_healthychildren_2024_fever_guide.txt",
+    "topic": "illness",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-007",
+    "question": "A baby is on day 4 of RSV illness and begins showing rapid breathing and chest retractions. What does this indicate and what should the parent do?",
+    "ground_truth": "RSV symptoms are typically at their worst on days 3 through 5. Rapid breathing and chest retractions are signs of bronchiolitis — lower respiratory involvement — which requires calling the pediatrician immediately. Other bronchiolitis warning signs include nostril flaring, head bobbing, grunting during breathing, belly breathing, and wheezing. Parents should contact the pediatrician without delay when these appear.",
+    "source_doc": "illness_healthychildren_2024_rsv_guide.txt",
+    "topic": "illness",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-008",
+    "question": "A child's cold symptoms improved after 9 days but then the cough and fever returned and worsened on day 12. Should the parent seek care?",
+    "ground_truth": "Yes. The CDC guidance lists 'symptoms, such as fever or cough, that improve but then return or worsen' as a reason to see a healthcare professional. While cold symptoms can last up to 10 to 14 days, returning or worsening symptoms after apparent improvement are a warning sign that warrants medical evaluation.",
+    "source_doc": "illness_cdc_2024_common_cold.txt",
+    "topic": "illness",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-009",
+    "question": "Which 6-month motor milestone directly corresponds to a key readiness sign for starting solid foods?",
+    "ground_truth": "The 6-month motor milestone of leaning on hands to support oneself when sitting corresponds to the solid food readiness sign of being able to sit up mostly on their own. Both the CDC milestone checklist and the AAP solid foods guidance align at the 6-month mark: sitting with support and head control are prerequisites for safe swallowing of solid foods.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-010",
+    "question": "How does breastfeeding reduce risk in two separate domains — SIDS prevention and infectious disease?",
+    "ground_truth": "Breastfeeding is a recommended SIDS risk-reduction strategy because breast milk provides protection against sudden infant death. Separately, compared with formula-fed infants, breastfed infants have fewer and less severe bacterial and viral diseases, including meningitis, gastroenteritis, otitis media, pneumonia, botulism, urinary tract infections, and necrotizing enterocolitis.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "feeding",
+    "difficulty": "medium"
+  },
+  {
+    "id": "multi-011",
+    "question": "A parent is worried their 11-month-old doesn't yet wave 'bye-bye.' Should they be concerned?",
+    "ground_truth": "Waving 'bye-bye' is listed as a 12-month milestone, not an 11-month expectation. The CDC milestone checklist states most babies can wave bye-bye by 12 months. At 11 months, the baby has one more month before this milestone is expected, so this is not yet a developmental concern.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-012",
+    "question": "A 7-month-old who was previously cooing and making sounds has stopped vocalizing over the past two weeks. What should parents do?",
+    "ground_truth": "Parents should act early and not wait. The CDC guidance is explicit: if a baby is not meeting milestones or has lost skills they once had, parents should make an appointment with the child's doctor right away. Regression in previously acquired skills is a specific warning sign that warrants prompt evaluation, regardless of the child's age.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-013",
+    "question": "What non-pharmaceutical strategies can parents use to reduce their baby's risk of RSV infection?",
+    "ground_truth": "Non-pharmaceutical prevention strategies for RSV include: limiting the baby's exposure to crowds and sick individuals, practicing handwashing with soap and water for 20 or more seconds, regularly disinfecting surfaces, breastfeeding if possible (which provides immune protection), and avoiding tobacco smoke exposure.",
+    "source_doc": "illness_healthychildren_2024_rsv_guide.txt",
+    "topic": "illness",
+    "difficulty": "medium"
+  },
+  {
+    "id": "multi-014",
+    "question": "A 5-month-old is exclusively breastfed. What two nutrition actions should parents be taking at this age?",
+    "ground_truth": "At 5 months, parents of an exclusively breastfed infant should: (1) ensure the baby is receiving an iron supplement, which should have been started at 4 months because breast milk contains very little iron and iron deficiency risk rises after 4–6 months; and (2) begin planning for solid food introduction, which can occur between 4 and 6 months when the baby shows developmental readiness signs.",
+    "source_doc": "feeding_aap_2024_nutrition_supervision.txt",
+    "topic": "feeding",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-015",
+    "question": "A child has a fever along with a stiff neck and severe headache. What should the parent do and why is this combination particularly urgent?",
+    "ground_truth": "The parent should contact the pediatrician immediately. Stiff neck and severe headache accompanying fever are listed as symptoms requiring immediate medical contact. This combination can be a sign of bacterial meningitis, which is a medical emergency. The AAP guidance specifically calls out stiff neck and severe headache as distinct warning signs that override standard fever-duration watch-and-wait guidance.",
+    "source_doc": "illness_healthychildren_2024_fever_guide.txt",
+    "topic": "illness",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-016",
+    "question": "When should parents first expect autism-specific screening, and what developmental screening already happens before that?",
+    "ground_truth": "General developmental screening happens first at 9 months. Autism-specific screening is then recommended at 18 months and again at 24 months. A developmental and autism screening together occurs at 18 months. Parents can expect autism-specific evaluation to begin at 18 months, roughly 9 months after the first general developmental screening.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-017",
+    "question": "If a parent is unable to breastfeed, what does the AAP recommend as the nutritional foundation for the first year?",
+    "ground_truth": "Iron-fortified infant formula is the recommended alternative to breast milk. When correctly prepared and given in adequate volume, formula provides sufficient amounts of all nutrients, including vitamins and minerals. Breast milk or iron-fortified formula is recommended as the sole nutrition source until 12 months; cow's, goat's, or soy milk should not be given in the first year.",
+    "source_doc": "feeding_aap_2024_nutrition_supervision.txt",
+    "topic": "feeding",
+    "difficulty": "medium"
+  },
+  {
+    "id": "multi-018",
+    "question": "A 15-month-old has never received any vaccines. What is the correct approach for getting them caught up?",
+    "ground_truth": "The vaccine series does not need to be restarted. Catch-up vaccination should be provided at the earliest opportunity. Providers should use the catch-up schedule (Table 2 of the CDC immunization schedule) to determine minimum intervals between doses for each vaccine the child needs. Vaccines should not be restarted or have extra doses added due to extended intervals.",
+    "source_doc": "vaccines_cdc_2025_immunization_schedule.txt",
+    "topic": "vaccines",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-019",
+    "question": "How do the upper and lower respiratory phases of RSV differ in symptoms, and when does each phase peak?",
+    "ground_truth": "Upper respiratory RSV symptoms include fever, dry or wet cough, nasal congestion, runny nose, sneezing, fussiness, poor feeding, and hoarse cry. Lower respiratory (bronchiolitis) symptoms — which indicate more serious illness — include rapid breathing, nostril flaring, head bobbing, grunting during breathing, belly breathing and chest retractions, and wheezing. All RSV symptoms are typically worst on days 3 through 5 of illness.",
+    "source_doc": "illness_healthychildren_2024_rsv_guide.txt",
+    "topic": "illness",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-020",
+    "question": "How does the supervised tummy time recommendation for SIDS prevention connect to the motor milestone expected at 4 months?",
+    "ground_truth": "The AAP recommends 15 to 30 minutes of supervised tummy time daily by 7 weeks to support motor development. This directly supports the 4-month motor milestone of pushing up onto elbows and forearms when on the tummy. Tummy time is the practice that builds the upper body strength needed to achieve this milestone, linking the SIDS-prevention recommendation to developmental progression.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "development",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-021",
+    "question": "A parent wants to use honey to soothe their 8-month-old's cough. Is this safe, and what alternatives are appropriate?",
+    "ground_truth": "Honey is only appropriate for children at least 1 year of age or older and should not be given to an 8-month-old. For cough and cold relief in young children, over-the-counter cough and cold medicines are not recommended for children under 6 years. Comfort measures such as saline nasal drops, a cool-mist humidifier, and steam from a shower are safer alternatives.",
+    "source_doc": "illness_cdc_2024_common_cold.txt",
+    "topic": "safety",
+    "difficulty": "medium"
+  },
+  {
+    "id": "multi-022",
+    "question": "A 6-month-old can roll both ways. A relative says it is now safe for the baby to sleep on their stomach. Is this correct?",
+    "ground_truth": "No. The AAP recommendation is to always place babies on their backs to sleep. Babies who sleep on their backs are much less likely to die suddenly compared to stomach or side positions. The back-sleeping recommendation applies regardless of the baby's rolling ability. Parents should always start the baby on their back for every sleep.",
+    "source_doc": "sleep_safety_healthychildren_2024_safe_sleep_guide.txt",
+    "topic": "sleep",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-023",
+    "question": "How do the breastfeeding and solid food timelines interact through the first year of a baby's life?",
+    "ground_truth": "Breast milk is the ideal food and primary nutrition source from birth through the first year. Solid foods can be introduced between 4 and 6 months when the baby shows developmental readiness. Even after solids are introduced, breast milk or formula remains the primary nutrition source — solids supplement rather than replace milk feeding. After 6 months, solid foods help meet nutrient needs (particularly iron) that breast milk alone may not fully cover.",
+    "source_doc": "feeding_aap_2024_solid_foods.txt",
+    "topic": "feeding",
+    "difficulty": "medium"
+  },
+  {
+    "id": "multi-024",
+    "question": "A feverish child becomes playful and interactive after receiving a dose of acetaminophen. Is this reassuring or should parents still call the doctor?",
+    "ground_truth": "This is a reassuring sign. The AAP identifies children playing and interacting normally after receiving comfort medication as a positive indicator. However, parents should continue monitoring for other warning signs — such as stiff neck, breathing difficulty, rash, unusual drowsiness, or a return of high fever — and call the doctor if the child's condition worsens or if fever persists beyond the age-appropriate thresholds.",
+    "source_doc": "illness_healthychildren_2024_fever_guide.txt",
+    "topic": "illness",
+    "difficulty": "hard"
+  },
+  {
+    "id": "multi-025",
+    "question": "A 9-month-old can sit without support and get to a sitting position alone, but is not yet crawling. Should parents be concerned?",
+    "ground_truth": "No. Crawling is not listed as a 9-month motor milestone. The expected 9-month physical milestones are: getting to a sitting position by herself, sitting without support, moving objects from one hand to the other, and using fingers to rake food. Crawling is encouraged through play (placing toys just out of reach) but is not a required milestone at 9 months. Parents should continue to encourage floor time and motor exploration.",
+    "source_doc": "milestones_cdc_2024_milestone_moments.txt",
+    "topic": "development",
+    "difficulty": "hard"
+  }
+]
