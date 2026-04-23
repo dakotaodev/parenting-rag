@@ -1,0 +1,4 @@
+strategy,mrr,hit_at_5,avg_chunk_size_words,num_chunks
+fixed,0.8483,0.9,127.2,1403
+semantic,0.6957,0.8,20.6,7589
+heirarchial,0.845,0.9,78.4,4077
